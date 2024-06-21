@@ -5,20 +5,16 @@
 <br />
 <div align="center">
   <a href="https://github.com/DallleHurst/WD_SEATWORK3">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/DD-removebg-preview.png" alt="hhotadow" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 3</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
+<p>This project provides innovative concepts and a useful tutorial for creating various header and footer styles using HTML and CSS.</p>
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=/DallleHurst/WD_SEATWORK3)
 
 ---
@@ -86,10 +82,9 @@ Static and Animated Footers
 
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -108,7 +103,7 @@ WD-ProjectName
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   |   └─ fileWith.jpg/.gif/.png
 |   └─ js
 |       └─ script.js
 └─ pages
@@ -117,7 +112,7 @@ WD-ProjectName
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  |  └─ fileWith.jpg/.gif/.png
 |     |  └─ js
 |     |     └─ script.js
 |     └─ index.html
@@ -127,7 +122,9 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
-| SW3(Sir gawa) | Idea  | https://github.com/zyx-0314/WD-Seatwork-3 |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title     | Purpose Link                                                          |                                                   |
+| --------- | --------------------------------------------------------------------- | ------------------------------------------------- |
+| getcssscan| Finding the best button to put                                        | https://getcssscan.com/css-buttons-examples       |
+| Youtube   | Getting some of the idea and tutorial on how to do the code           | https://youtube.com                               |
+| Github    | Got the idea from and had a brief knowledge on how to make this code  | https://github.com/zyx-0314/WD-Seatwork-3         |
+| w3schools | Got some idea how to do animation and other types of style and design | https://www.w3schools.com/css/css3_animations.asp |
