@@ -1,4 +1,3 @@
-/* Reset and basic styles */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
-    padding-bottom: 100px; /* Ensure space for footer */
+    padding-bottom: 100px;
     background: url('./assets/img/eggnot.gif') center/cover no-repeat fixed;
 }
 
@@ -84,28 +83,28 @@ h2 {
 }
 
 .static-footer-2 {
-    position: relative; /* Ensure relative positioning for absolute children */
+    position: relative;
 }
 
 .static-footer-2 .content {
     position: relative;
-    z-index: 1; /* Ensure content is above images */
+    z-index: 1;
 }
 
 .static-footer-2 .deldel,
 .static-footer-2 .deldel2 {
     position: absolute;
-    width: 10%; /* Adjusted width */
-    top: 10%; /* Adjusted top position */
-    height: auto; /* Maintain aspect ratio */
+    width: 10%;
+    top: 10%;
+    height: auto;
 }
 
 .static-footer-2 .deldel {
-    left: 5%; /* Adjusted left position */
+    left: 5%;
 }
 
 .static-footer-2 .deldel2 {
-    right: 5%; /* Adjusted right position */
+    right: 5%;
 }
 
 
@@ -121,17 +120,15 @@ h2 {
     margin: 0 5px;
 }
 
-/* Animation Specific Styles */
-
 .animated-footer-1 {
     background-color: gold;
-    transition: background-color 0.3s; /* Smooth transition for background color */
-    overflow: hidden; /* Ensure content doesn't overflow */
-    position: relative; /* Required for absolute positioning */
+    transition: background-color 0.3s;
+    overflow: hidden;
+    position: relative;
 }
 
 .animated-footer-1:hover {
-    background-color: rgb(108, 108, 108); /* Darker shade on hover */
+    background-color: rgb(108, 108, 108);
 }
 
 .animated-footer-1 .content {
@@ -139,14 +136,14 @@ h2 {
 }
 
 .animated-footer-1 .company-logo {
-    width: 10%; /* Adjusted size */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove any inline spacing issues */
-    transition: transform 0.3s ease-in-out; /* Smooth transition for scale */
+    width: 10%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
 }
 
 .animated-footer-1:hover .company-logo {
-    transform: scale(0.05); /* Enlarge image on hover */
+    transform: scale(0.05);
 }
 
 .animated-footer-1 .footer-icons {
@@ -154,12 +151,12 @@ h2 {
 }
 
 .animated-footer-1 .footer-icons a i {
-    color: #fff; /* Set default color */
-    transition: color 0.3s; /* Add transition for smooth color change */
+    color: #fff;
+    transition: color 0.3s;
 }
 
 .animated-footer-1 .footer-icons a:hover i {
-    color: gold; /* Change color on hover */
+    color: gold;
 }
 
 .animated-footer-2 {
@@ -188,16 +185,16 @@ h2 {
 
 .animated-footer-2 .content {
     position: relative;
-    z-index: 1; /* Ensure content is above pseudo element */
+    z-index: 1;
 }
 
 .animated-footer-2 .deldel,
 .animated-footer-2 .deldel2 {
     position: absolute;
-    width: 10%; /* Adjusted width */
-    top: 10%; /* Adjusted top position */
-    height: auto; /* Maintain aspect ratio */
-    animation: spin 3s linear infinite; /* Rotate animation */
+    width: 10%;
+    top: 10%;
+    height: auto;
+    animation: spin 3s linear infinite;
 }
 
 @keyframes spin {
@@ -206,52 +203,52 @@ h2 {
 }
 
 .animated-footer-2 .deldel {
-    left: 5%; /* Adjusted left position */
+    left: 5%;
 }
 
 .animated-footer-2 .deldel2 {
-    right: 5%; /* Adjusted right position */
+    right: 5%;
 }
 
 
 .animated-footer-3 .footer-links a {
-    transition: transform 0.3s ease-in-out; /* Smooth transition */
-    display: inline-block; /* Ensures the element can be rotated */
-    position: relative; /* Required for absolute positioning */
-    overflow: hidden; /* Ensure the overflow is hidden to contain the spinning element */
-    color: #fff; /* Default text color */
-    text-decoration: none; /* Remove underline */
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
 }
 
 .animated-footer-3 .footer-links a:hover {
-    color: gold; /* Change color on hover */
+    color: gold;
     text-decoration: underline;
 }
 
 .animated-footer-3 .footer-links a::after {
-    content: ''; /* Required for pseudo-elements */
-    position: absolute; /* Positioning for spin elements */
-    top: 50%; /* Adjust vertically */
-    left: calc(100% + 5px); /* Adjust horizontally */
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 5px);
     transform: translateY(-50%);
-    width: 20px; /* Adjust size as needed */
-    height: 20px; /* Adjust size as needed */
-    background-image: url('./path/to/your/spin-image.png'); /* Adjust path */
-    background-size: contain; /* Scale image to fit */
-    background-repeat: no-repeat; /* Prevent repeating */
-    background-position: center; /* Center image */
-    opacity: 0; /* Initially invisible */
-    transition: opacity 0.3s ease-in-out; /* Transition effect */
+    width: 20px;
+    height: 20px;
+    background-image: url('./path/to/your/spin-image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .animated-footer-3 .footer-links a:hover::after {
-    opacity: 1; /* Show on hover */
-    animation: spin 1s linear infinite; /* Spin animation on hover */
+    opacity: 1;
+    animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
     to {
-        transform: rotate(360deg); /* Full rotation */
+        transform: rotate(360deg);
     }
 }
 
@@ -261,7 +258,7 @@ h2 {
 }
 
 .animated-footer-4:hover {
-    background-color: gold; /* Darker shade of purple */
+    background-color: gold;
     color: #333;
 }
 
@@ -276,7 +273,7 @@ h2 {
 }
 
 .animated-footer-5:active {
-    background-color: #00ffff; /* Darker shade of gray */
+    background-color: #00ffff;
 }
 
 .animated-footer-5::before {
@@ -287,21 +284,19 @@ h2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(''); /* Add your background image URL */
+    background-image: url('');
     opacity: 0.3;
     pointer-events: none;
     transition: opacity 0.3s;
 }
 
 .animated-footer-5:active::before {
-    opacity: 0.6; /* Adjust opacity or add other effects as desired */
+    opacity: 0.6;
 }
 
 .footer-design.animated-footer-5:hover::before {
     opacity: 0.6;
 }
-
-/* Footer at the bottom */
 
 footer {
     position: fixed;

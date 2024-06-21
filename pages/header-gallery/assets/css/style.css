@@ -18,11 +18,10 @@ body {
   overflow-x: hidden;
 }
 
-/* Global section styling */
 section {
-  background-color: black; /* Black background for all sections */
-  border: 2px solid gold; /* Gold outline for all sections */
-  color: white; /* White text color for all sections */
+  background-color: black;
+  border: 2px solid gold;
+  color: white;
   width: 100vw;
   padding: 1rem 5vw;
   display: flex;
@@ -30,7 +29,6 @@ section {
   align-items: flex-end;
 }
 
-/* Header Design One */
 .design-one {
   display: flex;
   justify-content: space-between;
@@ -50,8 +48,8 @@ section {
 
 .design-one .navigation .navigation-content {
   padding: 10px 15px;
-  background-color: gold; /* Static gold background */
-  color: black; /* Black text color */
+  background-color: gold;
+  color: black;
   text-decoration: none;
   border-radius: 5px;
 }
@@ -60,7 +58,7 @@ section {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
-  pointer-events: none; /* Disable pointer events */
+  pointer-events: none;
 }
 
 .design-one .search-container input[type="text"] {
@@ -68,26 +66,25 @@ section {
   border-radius: 5px;
   border: 1px solid #ccc;
   font-size: 14px;
-  pointer-events: none; /* Disable pointer events */
+  pointer-events: none;
 }
 
 .design-one .search-container .search-button {
   padding: 10px 20px;
-  background-color: gold; /* Static gold background */
-  color: black; /* Black text color */
+  background-color: gold;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-/* Header Design Two */
 .design-two {
   width: 100vw;
   height: 40vh;
   display: flex;
   justify-content: space-between;
   padding: 0.7rem 10vw;
-  align-items: flex-start; /* Align items at the top */
+  align-items: flex-start;
   background: black;
   border: 2px solid gold;
   position: relative;
@@ -105,10 +102,10 @@ section {
   font-weight: 800;
   font-size: 1.2rem;
   text-decoration: none;
-  padding: 0.5rem 1rem; /* Padding for button */
-  border: 2px solid gold; /* Border for square appearance */
-  border-radius: 5px; /* Rounded corners */
-  margin: 0 10px; /* Space around each button */
+  padding: 0.5rem 1rem;
+  border: 2px solid gold;
+  border-radius: 5px;
+  margin: 0 10px;
 }
 
 .design-two .left-nav {
@@ -125,9 +122,9 @@ section {
   height: 100px;
   cursor: pointer;
   position: absolute;
-  top: 10px; /* Position at the top */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Adjust for center alignment */
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .design-two .call-to-action {
@@ -144,17 +141,16 @@ section {
   transform: translateX(-50%);
 }
 
-/* Header Design Three */
 .design-three {
   width: 100vw;
-  height: 40vh; /* Set a fixed height for landscape */
+  height: 40vh;
   display: flex;
   font-family: "SquareFont", sans-serif;
-  background: black; /* Black background */
+  background: black;
   justify-content: space-between;
   padding: 0.7rem 14vw;
   box-shadow: 0 10px 0px 0px rgba(0, 0, 0, 1);
-  border: 2px solid gold; /* Gold outline */
+  border: 2px solid gold;
   border-radius: 5px;
   position: relative;
 }
@@ -163,7 +159,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Occupy full width */
+  width: 100%;
 }
 
 .design-three .nav-left,
@@ -174,11 +170,11 @@ section {
 }
 
 .design-three .nav-left {
-  margin-right: auto; /* Align to left */
+  margin-right: auto;
 }
 
 .design-three .nav-right {
-  margin-left: auto; /* Align to right */
+  margin-left: auto;
 }
 
 .design-three .company-logo {
@@ -186,7 +182,7 @@ section {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Center the logo */
+  transform: translate(-50%, -50%);
 }
 
 .design-three .nav-button {
@@ -194,15 +190,15 @@ section {
   font-weight: 800;
   font-size: 1.2rem;
   text-decoration: none;
-  padding: 0.5rem 1rem; /* Padding for button */
-  border: 2px solid gold; /* Border for square appearance */
-  border-radius: 5px; /* Rounded corners */
-  margin: 0 10px; /* Space around each button */
-  background-color: #FFA12B; /* Button background color */
+  padding: 0.5rem 1rem;
+  border: 2px solid gold;
+  border-radius: 5px;
+  margin: 0 10px;
+  background-color: #FFA12B;
 }
 
 .design-three .navigation-content {
-  color: white; /* White text color */
+  color: white;
 }
 
 .design-three .bi {
@@ -210,10 +206,9 @@ section {
   font-size: 2rem;
 }
 
-/* Header Design Four */
 .design-four {
   width: 100vw;
-  height: 40vh; /* Set a fixed height for landscape */
+  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -221,7 +216,7 @@ section {
   gap: 1rem;
   padding: 1.5rem 0;
   box-shadow: 0 10px rgba(124, 124, 124, 0.534);
-  border: 2px solid gold; /* Gold outline */
+  border: 2px solid gold;
 }
 
 .design-four .welcome-section {
@@ -266,19 +261,16 @@ section {
   cursor: pointer;
 }
 
-
-
-/* Header Design Five */
 .design-five {
   width: 100vw;
-  height: 40vh; /* Set a fixed height for landscape */
+  height: 40vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: black; /* Black background */
+  background: black;
   padding: .5rem 0;
   align-self: flex-start;
-  border: 2px solid gold; /* Gold outline */
+  border: 2px solid gold;
 }
 
 .design-five .company-logo {
@@ -295,7 +287,7 @@ section {
   padding: 0.3rem 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   font-size: 1rem;
-  color: #171717; /* Text color */
+  color: #171717;
 }
 
 .design-five .navigation {
@@ -327,7 +319,6 @@ section {
   content: "\f017";
 }
 
-/* Design with animation */
 header.design-one-animation {
   width: 100vw;
   height: 40vh;
@@ -388,17 +379,16 @@ header.design-one-animation .search-button {
 }
 
 header.design-one-animation .search-button:hover {
-  transform: translateY(-5px); /* Button pop-out effect */
+  transform: translateY(-5px);
 }
 
-/* Header Design Two */
 .design-two-animation {
   width: 100vw;
   height: 40vh;
   display: flex;
   justify-content: space-between;
   padding: 0.7rem 10vw;
-  align-items: flex-start; /* Align items at the top */
+  align-items: flex-start;
   background: black;
   border: 2px solid gold;
   position: relative;
@@ -416,17 +406,17 @@ header.design-one-animation .search-button:hover {
   font-weight: 800;
   font-size: 1.2rem;
   text-decoration: none;
-  padding: 0.5rem 1rem; /* Padding for button */
-  border: 2px solid gold; /* Border for square appearance */
-  border-radius: 5px; /* Rounded corners */
-  margin: 0 10px; /* Space around each button */
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Transition properties */
+  padding: 0.5rem 1rem;
+  border: 2px solid gold;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .design-two-animation .navigation-content:hover {
-  background-color: gold; /* Change background color on hover */
-  color: black; /* Change text color on hover */
-  transform: scale(1.1); /* Scale effect on hover */
+  background-color: gold;
+  color: black;
+  transform: scale(1.1);
 }
 
 .design-two-animation .left-nav,
@@ -439,9 +429,9 @@ header.design-one-animation .search-button:hover {
   height: 100px;
   cursor: pointer;
   position: absolute;
-  top: 10px; /* Position at the top */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Adjust for center alignment */
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .design-two-animation .call-to-action {
@@ -456,26 +446,24 @@ header.design-one-animation .search-button:hover {
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition properties */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .design-two-animation .call-to-action:hover {
-  transform: scale(1.2); /* Scale effect on hover */
-  box-shadow: 0 0 20px gold; /* Glow effect on hover */
+  transform: scale(1.2);
+  box-shadow: 0 0 20px gold;
 }
 
-
-/* Header Design Three */
 .design-three-animation {
   width: 100vw;
-  height: 40vh; /* Set a fixed height for landscape */
+  height: 40vh;
   display: flex;
   font-family: "SquareFont", sans-serif;
-  background: black; /* Black background */
+  background: black;
   justify-content: space-between;
   padding: 0.7rem 14vw;
   box-shadow: 0 10px 0px 0px rgba(0, 0, 0, 1);
-  border: 2px solid gold; /* Gold outline */
+  border: 2px solid gold;
   border-radius: 5px;
   position: relative;
 }
@@ -484,7 +472,7 @@ header.design-one-animation .search-button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Occupy full width */
+  width: 100%;
 }
 
 .design-three-animation .nav-left,
@@ -495,11 +483,11 @@ header.design-one-animation .search-button:hover {
 }
 
 .design-three-animation .nav-left {
-  margin-right: auto; /* Align to left */
+  margin-right: auto;
 }
 
 .design-three-animation .nav-right {
-  margin-left: auto; /* Align to right */
+  margin-left: auto;
 }
 
 .design-three-animation .company-logo {
@@ -507,7 +495,7 @@ header.design-one-animation .search-button:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Center the logo */
+  transform: translate(-50%, -50%);
 }
 
 .design-three-animation .nav-button {
@@ -515,10 +503,10 @@ header.design-one-animation .search-button:hover {
   font-weight: 800;
   font-size: 1.2rem;
   text-decoration: none;
-  padding: 0.5rem 1rem; /* Padding for button */
-  border: 2px solid gold; /* Border for square appearance */
-  border-radius: 5px; /* Rounded corners */
-  margin: 0 10px; /* Space around each button */
+  padding: 0.5rem 1rem;
+  border: 2px solid gold;
+  border-radius: 5px;
+  margin: 0 10px;
   position: relative;
   display: inline-block;
 }
@@ -565,13 +553,12 @@ header.design-one-animation .search-button:hover {
 }
 
 .design-three-animation .navigation-content {
-  color: white; /* White text color */
+  color: white;
 }
 
-/* Header Design Four */
 .design-four-animation {
   width: 100vw;
-  height: 40vh; /* Set a fixed height for landscape */
+  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -579,7 +566,7 @@ header.design-one-animation .search-button:hover {
   gap: 1rem;
   padding: 1.5rem 0;
   box-shadow: 0 10px rgba(124, 124, 124, 0.534);
-  border: 2px solid gold; /* Gold outline */
+  border: 2px solid gold;
 }
 
 .design-four-animation .welcome-section {
@@ -679,10 +666,9 @@ header.design-one-animation .search-button:hover {
   100% { transform: rotate(360deg); }
 }
 
-/* Header Design Five */
 .design-five-animation {
   width: 100vw;
-  height: 40vh; /* Set a fixed height for landscape */
+  height: 40vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -690,8 +676,8 @@ header.design-one-animation .search-button:hover {
   background-size: cover;
   padding: .5rem 0;
   align-self: flex-start;
-  background-color: black; /* Black background */
-  border: 2px solid gold; /* Gold outline */
+  background-color: black;
+  border: 2px solid gold;
 }
 
 .design-five-animation .company-logo {
