@@ -4,23 +4,22 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/DallleHurst/WD_SEATWORK3">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/DD-removebg-preview.png" alt="hhotadow" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 3</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=/DallleHurst/WD_SEATWORK3)
 
 ---
 
@@ -57,20 +56,34 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This project involves creating multiple static and animated headers and footers using HTML and CSS. Each header and footer will showcase different styles, demonstrating creativity in design and implementation using only these two technologies.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+What is the project?
+  -The project entails the creation of five distinct static and animated headers and five static and animated footers using HTML and CSS exclusively.
+  
+Whats the purpose?
+  -The purpose is to showcase proficiency in HTML and CSS by designing visually appealing and functional headers and footers that can be easily integrated into web projects.
+
+What are key components?
+  -Key components include:
+  *Five static and animated header designs.
+  *Five static and animated footer designs.
+
+What technology used and how it is used?
+  -HTML is used for structuring the headers and footers, while CSS is employed to style and animate them. CSS animations and transitions are utilized to create dynamic effects where applicable.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+Static and Animated Headers
+  -Five distinct designs demonstrating creativity and variety in layout, typography, and visual elements.
+  -CSS animations applied to enhance user interaction and visual appeal.
+
+Static and Animated Footers
+  -Five different designs complementing the headers in style and theme.
+  -Implementation of CSS for styling and adding interactive elements like hover effects or transitions.
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -115,6 +128,6 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
+| SW3(Sir gawa) | Idea  | https://github.com/zyx-0314/WD-Seatwork-3 |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
